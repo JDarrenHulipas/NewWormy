@@ -13,7 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.stucom.flx.VCTR_DRRN.NewPlayActivity">
+        <activity android:name="com.stucom.flx.VCTR_DRRN.RegisterActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.stucom.flx.VCTR_DRRN.NewPlayActivity"/>
         <activity android:name="com.stucom.flx.VCTR_DRRN.PlayActivity" />
         <activity android:name="com.stucom.flx.VCTR_DRRN.RankingActivity" />
         <activity android:name="com.stucom.flx.VCTR_DRRN.SettingsActivity" />

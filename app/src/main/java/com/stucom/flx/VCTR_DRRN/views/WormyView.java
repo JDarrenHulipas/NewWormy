@@ -231,7 +231,6 @@ public class WormyView extends View implements SensorEventListener {
             canvas.drawBitmap(newGameImage, newGameLocationX - 500, newGameLocationY - 750, paint);
             //canvas.drawBitmap(yes ,newGameLocationX-500,newGameLocationY+100,paint);
             //canvas.drawBitmap(no,newGameLocationX,newGameLocationY+100,paint);
-
         }
 
 
